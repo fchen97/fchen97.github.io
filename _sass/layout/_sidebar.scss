@@ -141,18 +141,23 @@
 
 .author__pronouns {
   margin: 0;
+  font-size: $type-size-5;
+  font-style: italic;
+}
 
-  @include breakpoint($large) {
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
+.author__email-text {
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: $type-size-5;
+  font-style: italic;
+  color: mix(#fff, $gray, 25%);
 }
 
 .author__bio {
   margin: 0;
 
   @include breakpoint($large) {
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 20px;
   }
 }
